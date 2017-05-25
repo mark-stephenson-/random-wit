@@ -1,0 +1,36 @@
+{
+  "name": "node-wit",
+  "version": "4.2.0",
+  "description": "Wit.ai Node.js SDK with Random",
+  "keywords": [
+    "wit",
+    "wit.ai",
+    "bot",
+    "botengine",
+    "bots",
+    "nlp",
+    "automation"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/lib.js"
+  },
+  "repository": "https://github.com/wit-ai/node-wit",
+  "author": "The Wit Team <help@wit.ai>",
+  "modified-by": "Mark Stephenson - mark@m12n.co.uk",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "uuid": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  }
+}
